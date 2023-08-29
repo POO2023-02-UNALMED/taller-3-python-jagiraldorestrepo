@@ -13,10 +13,6 @@ class Control:
         tv.setControl(self)
     
     
-
-   
-
-    
     def turnOn(self):
         self.tv.turnOn()
     
