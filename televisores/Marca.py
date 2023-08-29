@@ -8,3 +8,4 @@ class Marca:
     
     def setNombre(self, nombre:str):
         self.nombre = nombre
+        
