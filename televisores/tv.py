@@ -1,5 +1,5 @@
 class TV:
-    numTV = 0
+    _numTV = 0
 
     def __init__(self,marca,estado:bool):
         self._canal = 1
