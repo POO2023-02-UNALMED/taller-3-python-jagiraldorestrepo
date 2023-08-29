@@ -2,15 +2,19 @@ class Control:
     def __init__(self):
         self.tv = None
 
-    def enlazar(self, tv):
-        tv.setControl(self)
-        self.tv = tv
-    
     def setTv(self, tv):
-        self.tv = tv
+        self._tv = tv
 
     def getTv(self):
-        return self.tv
+        return self._tv
+    
+    def enlazar(self, tv):
+        self.tv = tv
+        tv.setControl(self)
+    
+    
+
+   
 
     
     def turnOn(self):
