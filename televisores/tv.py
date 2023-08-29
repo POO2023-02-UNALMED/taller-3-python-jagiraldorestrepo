@@ -1,5 +1,5 @@
 class TV:
-    _numTV = 0
+    numTV = 0
 
     def __init__(self,marca,estado):
         self._canal = 1
@@ -8,7 +8,7 @@ class TV:
         self._precio = 500
         self._estado = estado
         self._control = None
-        TV._numTV +=1
+        TV.numTV +=1
 
     #getters y setters-------------------------
     def getMarca(self):
@@ -52,10 +52,10 @@ class TV:
     @classmethod
     
     def getNumTv(cls):
-        return cls._numTV
+        return cls.numTV
     
-    def setNumTv(cls,_numTV):
-        cls._numTV = _numTV
+    def setNumTv(cls,numTV):
+        cls.numTV = numTV
 
     #-----------------------------
 
