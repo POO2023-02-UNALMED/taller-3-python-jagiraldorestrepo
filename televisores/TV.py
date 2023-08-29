@@ -1,7 +1,7 @@
 class TV:
     _numTV = 0
 
-    def __init_(self,marca,estado:bool):
+    def __init__(self,marca,estado:bool):
         self._canal = 1
         self._volumen = 1
         self._marca = marca
