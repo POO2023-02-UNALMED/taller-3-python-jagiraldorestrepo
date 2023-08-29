@@ -1,5 +1,5 @@
 class TV:
-    _numTV = 0
+    numTV = 0
 
     def __init__(self,marca,estado:bool):
         self._canal = 1
@@ -21,7 +21,7 @@ class TV:
         return self._canal
 
     def setCanal(self, canal):
-        if (self._estado == True and 1<=canal and canal<=120):
+        if (self._estado == True and 1<=canal<=120):
             self._canal = canal
 
     def getPrecio(self):
