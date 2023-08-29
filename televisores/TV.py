@@ -14,7 +14,7 @@ class TV:
     def getMarca(self):
         return self._marca
     
-    def setMarca(self, canal):
+    def setMarca(self, marca):
         self._marca = marca
 
     def getCanal(self):
